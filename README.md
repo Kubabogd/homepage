@@ -1,7 +1,7 @@
 # Champion League
 Page dedicated to the champions League.
 
-![Chap=mpionsLeague](/ChampionsLeague.jpg)
+![ChampionsLeague](images/ChampionsLeague.jpg)
 
 - Hostory of Champions League
 - Club achievements

@@ -31,4 +31,3 @@ button.addEventListener("click", () => {
             themeName.innerText = "Juventus";
     }
 })
-

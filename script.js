@@ -1,33 +1,41 @@
-let button = document.querySelector(".button");
-let klub = document.querySelector(".klub");
-let themeName = document.querySelector(".themeName");
-let licznik;
 
+const button = document.querySelector(".button");
 button.addEventListener("click", () => {
-    licznik = Math.floor(Math.random() * 8);
-    switch (licznik) {
+    const themeName = document.querySelector(".themeName");
+    const licznik = () => { return (Math.floor(Math.random() * 8)) }
+    const TextChange = (club) => { return (themeName.innerText = club) };
+    switch (licznik()) {
         case 1:
-            themeName.innerText = "Real Madryt";
+            club = "Real Madryt"
+            TextChange(club);
             break;
         case 2:
-            themeName.innerText = "Legia Warszawa";
+            club = "Legia Warszawa";
+            TextChange(club);
             break;
         case 3:
-            themeName.innerText = "PSG";
+            club = "PSG";
+            TextChange(club);
             break;
         case 4:
-            themeName.innerText = "Liverpool";
+            club = "Liverpool";
+            TextChange(club);
             break;
         case 5:
-            themeName.innerText = "Coco Jambo Warszawa";
+            club = "Coco Jambo Warszawa";
+            TextChange(club);
             break;
         case 6:
-            themeName.innerText = "Lech Poznań";
+            club = "Lech Poznań";
+            TextChange(club);
             break;
         case 7:
-            themeName.innerText = "Wisła Kraków";
+            club = "Wisła Kraków";
+            TextChange(club);
             break;
         default:
-            themeName.innerText = "Juventus";
+            club = "Juventus";
+            TextChange(club);
     }
 })
+
